@@ -72,8 +72,8 @@ public class PanelBola extends JPanel implements Runnable {
 			{
 				System.out.println("Has salido ileso!");
 			}
-// Esta sería la forma natural de matar los hilos
-// Pero el método stop() está deprecated
+			// Esta sería la forma natural de matar los hilos
+			// Pero el método stop() está deprecated
 			/*
 			 * for (int i=0; i<hilosBola.length; ++i) { hilosBola[i].stop(); }
 			 * hiloBolin.stop();

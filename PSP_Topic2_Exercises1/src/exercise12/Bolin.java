@@ -16,22 +16,22 @@ public class Bolin {
 
 	public void mover(int direccion) {
 		switch (direccion) {
-// Derecha
+		// Derecha
 		case 0:
 			if (x < 450)
 				x++;
 			break;
-// Abajo
+			// Abajo
 		case 1:
 			if (y < 550)
 				y++;
 			break;
-// Izquierda
+			// Izquierda
 		case 2:
 			if (x > 0)
 				x--;
 			break;
-		// Arriba
+			// Arriba
 		case 3:
 			if (y > 0)
 				y--;

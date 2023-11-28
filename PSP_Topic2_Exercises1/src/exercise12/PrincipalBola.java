@@ -22,7 +22,7 @@ public class PrincipalBola extends JFrame implements KeyListener {
 		f.setVisible(true);
 	}
 
-// Ejercicio 11
+	// Ejercicio 11
 	public void keyPressed(KeyEvent arg0) {
 		switch (arg0.getKeyCode()) {
 		case 37:
